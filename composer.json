@@ -1,0 +1,24 @@
+{
+    "name": "double-break/php-batcher",
+    "description": "Simple lib providing batching functionality",
+    "type": "library",
+    "require": {
+        "php": "^8.4"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DoubleBreak\\PhpBatcher\\": "src/",
+            "DoubleBreak\\PhpBatcher\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lyubomir Slavilov",
+            "email": "lyubo@doublebreak.eu"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^12.1"
+    }
+}
