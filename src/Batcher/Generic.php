@@ -65,4 +65,8 @@ class Generic
         }
     }
 
+    public function getState(): State
+    {
+        return $this->state;
+    }
 }
